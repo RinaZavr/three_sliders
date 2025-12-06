@@ -127,7 +127,7 @@ class OptionCard extends StatelessWidget {
                   value: isEnabled,
                   onChanged: (_) => onToggle(),
                   activeThumbColor: color,
-                  activeTrackColor: color,
+                  activeTrackColor: color.withValues(alpha: 0.2),
                 ),
               ],
             ),
