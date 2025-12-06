@@ -1,0 +1,11 @@
+{
+  "name": "Треугольник проекта",
+  "short_name": "Triangle",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#6366F1",
+  "description": "Приложение с логикой треугольника проектного менеджмента",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
