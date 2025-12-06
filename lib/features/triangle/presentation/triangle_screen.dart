@@ -111,7 +111,7 @@ class _TriangleScreenState extends State<TriangleScreen> {
     final messages = <String>[];
 
     if (_state.isFastEnabled && _state.isQualityEnabled) {
-      messages.add('⚡ Быстро и качественно = дорого!');
+      messages.add('⚡ Быстро и качественно = много вопросов!');
     } else if (_state.isFastEnabled && _state.isNoQuestionsEnabled) {
       messages.add('🎲 Быстро и без вопросов = на свой страх и риск');
     } else if (_state.isQualityEnabled && _state.isNoQuestionsEnabled) {
